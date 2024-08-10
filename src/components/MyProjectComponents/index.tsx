@@ -44,7 +44,7 @@ export const MyProjectComponents = () => {
               My Projects
             </p>
             <p className="pt-6 text-gray-400 dark:text-white lg:text-2xl sm: text-lg">
-              Explore my latest projects and see what I've been working on{" "}
+              Explore my latest projects and see what I&lsquo;ve been working on{" "}
             </p>
           </div>
           {projectsDetails.map((data, keyId) => (

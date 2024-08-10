@@ -46,7 +46,7 @@ export const AboutMe = () => {
                     TypeScript, Go, and C++. And Other
                   </h2>
                   <h2 className="pt-4">
-                    After experimenting with these technologies, I've decided to
+                    After experimenting with these technologies, I&lsquo;ve decided to
                     become a{" "}
                     <a className="font-bold">
                       career as a Fullstack Web Developer.
