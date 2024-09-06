@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/navigation-menu";
 
 import { GithubIcon, Instagram, MoonStarIcon, SunIcon } from "lucide-react";
+import Image from "next/image";
 
 interface PageProps {
   isScrolled: boolean
@@ -47,7 +48,7 @@ export const NavbarMenu: React.FC<PageProps> = ({isScrolled, setDarkmode, isDark
               <div className="flex space-x-2">
                 <a href="/">
                   <div className="flex mx-2">
-                    <img src={"/e-logo.png"} width={25} height={10} />
+                    <Image src={"/e-logo.png"} width={25} alt="logo image" height={5} />
                     <p className="font-bold text-2xl text-maincolor">PUL</p>
                     <p className="font-bold text-black dark:text-white">DEV</p>
                   </div>
@@ -98,7 +99,7 @@ export const NavbarMenu: React.FC<PageProps> = ({isScrolled, setDarkmode, isDark
                 </div>
               </div>
               <div className="lg:flex space-x-2 md: hidden">
-                <div className="rounded-full cursor-pointer bg-gray-800 dark:bg-white p-2 w-8 h-8 duration-100 transition ease-in hover:bg-cyan-100 p-2 flex justify-center">
+                <div className="rounded-full cursor-pointer bg-gray-800 dark:bg-white w-8 h-8 duration-100 transition ease-in hover:bg-cyan-100 p-2 flex justify-center">
                   <a href="https://github.com/muhammadsaefulr/">
                     <GithubIcon
                       className="pb-1 text-white dark:text-black"
@@ -106,7 +107,7 @@ export const NavbarMenu: React.FC<PageProps> = ({isScrolled, setDarkmode, isDark
                     />
                   </a>
                 </div>
-                <div className="rounded-full cursor-pointer bg-gray-800 dark:bg-white p-2 w-8 h-8 duration-100 transition ease-in hover:bg-cyan-100 p-2 flex justify-center">
+                <div className="rounded-full cursor-pointer bg-gray-800 dark:bg-white w-8 h-8 duration-100 transition ease-in hover:bg-cyan-100 p-2 flex justify-center">
                   <a href="https://www.instagram.com/msaepul07_/">
                     <Instagram
                       className="pb-1 text-white dark:text-black"

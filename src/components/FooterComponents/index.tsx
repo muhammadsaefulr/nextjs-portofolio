@@ -39,6 +39,7 @@ export const FooterComponents = () => {
             <p>Explore more and connect with me online:</p>
             <div className="flex items-center space-x-4">
               <Link
+                aria-label="Visit Muhammad Saeful R's GitHub profile"
                 href="https://github.com/muhammadsaefulr/"
                 className="text-lg hover:underline"
                 prefetch={false}
@@ -46,6 +47,8 @@ export const FooterComponents = () => {
                 <GithubIcon className="h-6 w-6" />
               </Link>
               <Link
+                aria-label="See Muhammad Saeful R's Linkedin"
+                title="my linkedin"
                 href="https://www.linkedin.com/in/muhammadsaeful/"
                 className="text-lg hover:underline"
                 prefetch={false}
@@ -53,6 +56,7 @@ export const FooterComponents = () => {
                 <Linkedin className="h-6 w-6" />
               </Link>
               <Link
+                aria-label="Muhammad Saeful R's Instagram"
                 href="https://www.instagram.com/msaepul07_/"
                 className="text-lg hover:underline"
                 prefetch={false}
@@ -63,7 +67,9 @@ export const FooterComponents = () => {
           </div>
         </div>
         <div className="mt-12 border-t pt-6 text-center text-sm">
-          <p className="pt-6">&copy; 2024 Muhammad Saeful R - Made With &#x2764;</p>
+          <p className="pt-6">
+            &copy; 2024 Muhammad Saeful R - Made With &#x2764;
+          </p>
         </div>
       </footer>
     </div>

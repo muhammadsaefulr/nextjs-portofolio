@@ -6,12 +6,12 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { FaGolang } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { ArrowDown } from "lucide-react";
+import Image from 'next/image'
 
 export const JumbotronComponents = () => {
   return (
     <>
       <section className="w-full min-h-screen flex items-center justify-center">
-        {" "}
         <div className="relative container flex justify-around lg:mx-8 xl:mx-2">
           <div className="container px-4 md:px-6">
             <div className="space-y-3">
@@ -34,7 +34,7 @@ export const JumbotronComponents = () => {
                     Fullstack Web Developer
                   </a>{" "} <br/>
                   I love creating simple and easy-to-use interfaces and I never
-                  give up on learning.{" "}
+                  give up on learning.
                 </p>
               </div>
               <div data-aos="fade-up" className="flex gap-x-2">
@@ -46,7 +46,7 @@ export const JumbotronComponents = () => {
               </div>
               <div className="py-12">
                 <p className="text-stone-500 pb-2 font-medium">
-                  Currently using:{" "}
+                  Currently using: 
                 </p>
                 <div className="flex gap-x-4">
                   <SiTailwindcss
@@ -74,10 +74,12 @@ export const JumbotronComponents = () => {
             </div>
           </div>
           <div className="w-96 h-96 mr-4 lg:block sm: hidden">
-            <img
+            <Image
               className="p-2 animate-wave-image mx-auto rounded-full border aspect-square object-cover object-center sm:w-full"
-              src="/epul.jpeg"
+              src={`/epul.jpeg`}
               alt=""
+              width={250}
+              height={250}
             />
           </div>
         </div>
