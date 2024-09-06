@@ -10,10 +10,10 @@ import { Button } from "../ui/button";
 export const FooterComponents = () => {
   return (
     <div>
-      <footer className="py-12 text-muted-foreground">
+      <footer className="py-12 text-muted-foreground dark:text-white">
         <div className="container mx-auto flex flex-col flex-wrap justify-between max-w-8xl px-12 gap-12 md:flex-row ">
           <div id="contact" className="space-y-4">
-            <h3 className="text-2xl font-bold">Get in Touch</h3>
+            <h1 className="text-2xl font-bold">Get in Touch</h1>
             <form className="space-y-4">
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <div>
@@ -35,7 +35,7 @@ export const FooterComponents = () => {
             </form>
           </div>
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">More About Me</h3>
+            <h1 className="text-2xl font-bold">More About Me</h1>
             <p>Explore more and connect with me online:</p>
             <div className="flex items-center space-x-4">
               <Link

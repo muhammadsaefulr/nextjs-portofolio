@@ -37,13 +37,13 @@ const projectsDetails = [
 export const MyProjectComponents = () => {
   return (
     <>
-      <section id="project" className="pb-5 pt-12">
+      <section id="project" className="pb-5 pt-12 dark:text-white">
         <div className="container px-12">
           <div id="about" className="text-blue">
-            <p className="uppercase font-bold text-gray-400 lg:text-5xl sm: text-3xl">
+            <p className="uppercase font-bold lg:text-5xl sm: text-3xl">
               My Projects
             </p>
-            <p className="pt-6 text-gray-400 dark:text-white lg:text-2xl sm: text-lg">
+            <p className="pt-6 lg:text-2xl sm: text-lg">
               Explore my latest projects and see what I&lsquo;ve been working on{" "}
             </p>
           </div>
@@ -72,7 +72,7 @@ export const MyProjectComponents = () => {
                     </div>
 
                     <div
-                      className="lg:flex w-[80%] transition duration-200 ease-in border border-4 hover:border-2 rounded-lg p-2 py-3 gap-x-3 sm: hidden"
+                      className="lg:flex w-[80%] transition duration-200 ease-in border-4 hover:border-2 rounded-lg p-2 py-3 gap-x-3 sm: hidden"
                       style={
                         data.isAvailableOnGithub === true
                           ? { borderColor: "#0079f2" }

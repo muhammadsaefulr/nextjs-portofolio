@@ -30,7 +30,7 @@ export const JumbotronComponents = () => {
               <div data-aos="fade-right" className="lg:w-1/2 sm: w-full">
                 <p className="text-gray-500 md:text-xl dark:text-gray-400 w-15">
                   Im want to be come{" "}
-                  <a className="font-bold text-maincolor">
+                  <a href="https://en.wikipedia.org/wiki/Solution_stack#Full-stack_developer" className="font-bold text-maincolor">
                     Fullstack Web Developer
                   </a>{" "} <br/>
                   I love creating simple and easy-to-use interfaces and I never
