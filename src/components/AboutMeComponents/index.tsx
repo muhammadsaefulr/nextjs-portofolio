@@ -39,9 +39,9 @@ export const AboutMe = () => {
                   <h2 className="">
                     Hello, My name muhammad saeful rahmat im from Bekasi,
                     Indonesia, I&apos;ve been tried programming{" "}
-                    <a className="font-bold">
+                    <p className="font-bold">
                       {calculateYears(2022)} Years A Go
-                    </a>{" "}
+                    </p>{" "}
                     and have explored various languages such as JavaScript,
                     TypeScript, Go, and C++. And Other
                   </h2>
