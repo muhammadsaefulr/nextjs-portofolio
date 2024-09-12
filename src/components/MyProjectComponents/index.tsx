@@ -10,7 +10,7 @@ const projectsDetails = [
     subHeading: "Platform nonton via website",
     description:
       "Platform streaming dan download anime sederhana dengan lingkungan runtime bun",
-    projectPreview: "/project/ss-nimestream.jpeg",
+    projectPreview: "/project/ss-nimestreams.png",
     isAvailableOnGithub: true,
     githubLink: "https://github.com/muhammadsaefulr/NimeStream",
   },
